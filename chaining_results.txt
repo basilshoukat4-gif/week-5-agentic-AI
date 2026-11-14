@@ -1,0 +1,73 @@
+
+APPROACH A: SINGLE PROMPT
+
+Latency: 37.225s
+
+Here is the analysis of the claim:
+
+**1. STATED FACTS**
+
+* The claimant's kitchen ceiling is damaged.
+* The damage occurred after a pipe burst upstairs.
+* The incident happened yesterday.
+* The claimant has photographs of the damage.
+
+**2. MISSING EVIDENCE**
+
+* A repair estimate for the damaged kitchen ceiling.
+* Information about the cause of the pipe burst (e.g., age of the pipe, recent maintenance).
+
+**3. CATEGORY**
+
+* property
+
+**4. SUMMARY**
+
+The claimant's kitchen ceiling is damaged due to a pipe burst upstairs, and they are seeking compensation for the damage.
+
+**5. LIMITATIONS**
+
+* The claimant does not have a repair estimate, which may make it difficult to determine the extent of the damage and the cost of repairs.
+* The cause of the pipe burst is not specified, which may impact the assessment of liability and potential coverage.
+* Insufficient information is provided to determine if the damage is covered under the policy.
+
+
+APPROACH B: TWO-STAGE CHAIN
+
+Stage 1 latency: 23.844s
+Stage 2 latency: 24.719s
+Total latency: 48.562s
+
+EXTRACTED INFORMATION:
+Here is the analysis of the claim:
+
+**STATED FACTS**
+
+1. The kitchen ceiling is damaged.
+2. The damage occurred after a pipe burst upstairs.
+3. The incident happened yesterday.
+4. Photographs are available.
+
+**MISSING EVIDENCE**
+
+1. A repair estimate for the damaged kitchen ceiling.
+2. The exact location and extent of the pipe burst upstairs.
+
+**UNCERTAINTIES**
+
+1. The cause of the pipe burst (e.g., age, condition, maintenance).
+2. The extent of the damage to the kitchen ceiling (e.g., amount of water, type of damage).
+3. The cost of the necessary repairs.
+
+FINAL CLASSIFICATION:
+**CATEGORY: property**
+
+**SUMMARY**
+The claim involves damage to a home, specifically the kitchen ceiling, which occurred after a pipe burst upstairs. The incident happened yesterday, and photographs are available.
+
+**MISSING EVIDENCE**
+1. A repair estimate for the damaged kitchen ceiling.
+2. The exact location and extent of the pipe burst upstairs.
+
+**LIMITATIONS**
+The cause of the pipe burst, the extent of the damage to the kitchen ceiling, and the cost of the necessary repairs cannot be concluded due to missing information.

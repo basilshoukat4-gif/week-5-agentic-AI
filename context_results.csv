@@ -1,0 +1,31 @@
+claim_id,claim,context,repeat,reference,label,latency_seconds,output_chars,raw_output
+1,My car collided with another vehicle at a junction.,A_relevant,1,vehicle,vehicle,5.505969200000436,7,vehicle
+1,My car collided with another vehicle at a junction.,A_relevant,2,vehicle,vehicle,0.4265667999998186,7,vehicle
+1,My car collided with another vehicle at a junction.,A_relevant,3,vehicle,vehicle,0.3563813000000664,7,vehicle
+1,My car collided with another vehicle at a junction.,B_extra_irrelevant,1,vehicle,other,8.266819899999973,5,other
+1,My car collided with another vehicle at a junction.,B_extra_irrelevant,2,vehicle,property,0.3838874999996733,8,property
+1,My car collided with another vehicle at a junction.,B_extra_irrelevant,3,vehicle,property,0.38803150000012465,8,property
+2,A pipe burst and damaged the walls of my house.,A_relevant,1,property,property,3.0172050000001036,8,property
+2,A pipe burst and damaged the walls of my house.,A_relevant,2,property,property,0.4503610000001572,8,property
+2,A pipe burst and damaged the walls of my house.,A_relevant,3,property,property,0.34443430000010267,8,property
+2,A pipe burst and damaged the walls of my house.,B_extra_irrelevant,1,property,other,9.530707800000073,5,other
+2,A pipe burst and damaged the walls of my house.,B_extra_irrelevant,2,property,other,0.4623721000002661,5,other
+2,A pipe burst and damaged the walls of my house.,B_extra_irrelevant,3,property,other,0.5238110999998753,5,other
+3,My suitcase was lost during an international flight.,A_relevant,1,travel,travel,2.2752572999997938,6,travel
+3,My suitcase was lost during an international flight.,A_relevant,2,travel,travel,0.35210030000007464,6,travel
+3,My suitcase was lost during an international flight.,A_relevant,3,travel,travel,0.3345955999998296,6,travel
+3,My suitcase was lost during an international flight.,B_extra_irrelevant,1,travel,other,7.38356449999992,5,other
+3,My suitcase was lost during an international flight.,B_extra_irrelevant,2,travel,other,0.37380949999987934,5,other
+3,My suitcase was lost during an international flight.,B_extra_irrelevant,3,travel,other,0.357388599999922,5,other
+4,I received medical treatment after an accident.,A_relevant,1,health,health,2.118750000000091,6,health
+4,I received medical treatment after an accident.,A_relevant,2,health,health,0.3197783000000527,6,health
+4,I received medical treatment after an accident.,A_relevant,3,health,health,0.3232850999997936,6,health
+4,I received medical treatment after an accident.,B_extra_irrelevant,1,health,other,6.204284200000075,5,other
+4,I received medical treatment after an accident.,B_extra_irrelevant,2,health,other,0.4126966999997421,5,other
+4,I received medical treatment after an accident.,B_extra_irrelevant,3,health,other,0.5076923999999963,5,other
+5,"Something was damaged, but I have not explained what it was.",A_relevant,1,context-dependent,other,2.9603336000000127,5,other
+5,"Something was damaged, but I have not explained what it was.",A_relevant,2,context-dependent,other,0.6416831000001366,5,other
+5,"Something was damaged, but I have not explained what it was.",A_relevant,3,context-dependent,other,0.7253061000001253,5,other
+5,"Something was damaged, but I have not explained what it was.",B_extra_irrelevant,1,context-dependent,other,8.452525400000013,5,other
+5,"Something was damaged, but I have not explained what it was.",B_extra_irrelevant,2,context-dependent,other,0.4217330999999831,5,other
+5,"Something was damaged, but I have not explained what it was.",B_extra_irrelevant,3,context-dependent,other,0.34253320000016174,5,other
